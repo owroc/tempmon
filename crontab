@@ -1,2 +1,2 @@
-* * * * * root PYTHONPATH=/usr/local/lib/python2.7/site-packages python /tempmon.py -a 192.168.1.222 -u owroc -p 0186ro --port 830 >> /var/log/cron.log 2>&1
+* * * * * root PYTHONPATH=/usr/local/lib/python2.7/site-packages python /tempmon.py -a 192.168.1.222 -u <username> -p <password> --port 830 >> /var/log/cron.log 2>&1
 # An empty line is required at the end of this file for a valid cron file.
